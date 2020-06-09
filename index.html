@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class='wrapper'>
+        <div class='filter'>
+            <input type="text" placeholder='Фильтр'>
+            <button class='ok'>OK</button>
+        </div>
+        <div class="rowsNum">
+            <label for="#rowsNum">Введите количество строк таблицы(по умолчанию 5 строк)</label>
+            <input type="text" placeholder='Введите цифру' id='rowsNum' value='5'>
+            <button class='setRows'>Задать строки</button>
+        </div>
+        <table class='table'>
+            <tr>
+                <th class='id' width=300px>ID<div class='borderRight1'></div></th>
+                <th class='name' width=400px>Name<div class='borderRight2'></div></th>
+                <th class='value' width=300px>Value<div class='borderRight3'></div></th>
+            </tr>
+        </table>
+     
+        <div class="buttonWrapper">
+
+        </div>
+        <div class="arrows">
+            <button class="left"><</button>
+            <button class="right">></button>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

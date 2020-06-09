@@ -1,0 +1,185 @@
+
+.wrapper {
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+
+}
+.filter {
+    width: 100%;
+    display: flex;
+    height: 40px;
+    margin-bottom: 20px;
+
+}
+.filter input {
+    position: relative;
+    height: 38px !important;
+    flex-grow: 10;
+    display: block;
+    border: 1px solid lightgray;
+    padding: 0;
+    font-size: 30px;
+}
+.rowsNum {
+    margin-bottom: 5px;
+}
+.rowsNum input #rowsNum {
+    font-size: 12px;
+}
+.rowsNum button {
+    background-color: lightblue;
+}
+.filter button {
+    min-width: 100px;
+    height: 100%;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    display: block;
+    flex-grow: 1;
+    background-color: lightblue;
+}
+table {
+    width: 1000px;
+    border-collapse: collapse;
+}
+table th {
+    background-color: lightblue;
+    border: 1px solid black;
+    position: relative;
+}
+table th .borderRight1 {
+    display: block;
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    right: -5px;
+    top:0;
+    z-index: 2; 
+}
+table th .borderRight2 {
+    display: block;
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    right: -5px;
+    top:0;
+    z-index: 2; 
+}
+table th .borderRight3 {
+    display: block;
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    right: -5px;
+    top:0;
+    z-index: 2; 
+}
+
+table td {
+    border: 1px solid black;
+    position: relative;
+}
+table td .borderRight1 {
+    display: block;
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    right: -5px;
+    top: 0;
+    z-index:  1;
+}
+table td .borderRight2 {
+    display: block;
+    width: 10px;
+    height: 100%;
+
+    position: absolute;
+    right: 0;
+    right: -5px;
+    top: 0;
+    z-index: 1;
+}
+table td .borderRight3 {
+    display: block;
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    right: -5px;
+    top: 0;
+    z-index: 1;
+}
+table tr {
+    width: 1000px;
+}
+.addRowWrapper {
+    width: 100% - 6px;
+    position: relative;
+    border: 1px solid lightblue;
+}
+.addRowWrapper h3 {
+    text-align: center;
+    margin: 5px auto;
+}
+.addRowInputs {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightblue;
+}
+.buttonWrapper {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 30px;
+    position: relative;
+}
+.buttonWrapper button {
+    width: 30px;
+    height: 30px;
+}
+.activeButton {
+    background-color: lightgray;
+}
+
+.arrows {
+    position: relative;
+    margin: 0 auto;
+    width: 200px;
+}
+.left {
+    display: block;
+    position: absolute;
+    left: -10px;
+    width: 30px;
+    height: 30px;
+    top: -30px;
+}
+.right {
+    display: block;
+    position: absolute;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    top: -30px;
+}
+.visibleButton {
+    display: block;
+}
+.invisibleButton {
+    background-color: lightgreen;
+    display: none;
+}
+.rightMargin {
+    margin-right: 15px;
+}
+.leftMargin {
+    margin-left: 15px;
+}
+
